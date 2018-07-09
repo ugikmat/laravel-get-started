@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 })->middleware('guest');
 
+Route::get('/sb_admin', function () {
+    return view('sb_admin');
+});
+
+
 Route::group(['prefix' => 'xl'], function () {
     Auth::routes();
 });

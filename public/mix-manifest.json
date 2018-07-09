@@ -1,4 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/sb-admin.min.js": "/js/sb-admin.min.js",
+    "/js/sb-admin-datatables.min.js": "/js/sb-admin-datatables.min.js",
+    "/js/sb-admin-charts.min.js": "/js/sb-admin-charts.min.js"
 }
