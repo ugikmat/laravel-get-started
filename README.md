@@ -12,7 +12,7 @@ By default, the username is root and password is also root. (This is for Lamp)
 ### 4. generate a key
 Run 'php artisan key:generate'
 ### 5. Migrate database
-Run 'php artisan migrate'
+Run 'php artisan migrate:fresh --seed'
 if there are error message like '[Illuminate\Database\QueryException] SQLSTATE[42000]: Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes (SQL: alter table users add unique users_email_unique(email))'. 
 open AppServiceProvider.php in app/Providers/ and add this:
 
