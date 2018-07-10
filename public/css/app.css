@@ -10798,12 +10798,12 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 992px) {
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
-    background: #343a40;
+    background: #dee2e6;
   }
 
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
     color: white !important;
-    background-color: #495057;
+    background-color: #ced4da;
   }
 
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a:focus,
@@ -10813,7 +10813,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
-    background: #343a40;
+    background: #dee2e6;
   }
 }
 
