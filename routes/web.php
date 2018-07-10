@@ -13,8 +13,16 @@
 
 Route::get('/', function () {
     return view('welcome');
+})->middleware('guest');
+
+Route::group(['prefix' => 'xl'], function () {
+    Auth::routes();
 });
 
-Auth::routes();
+// Route::group(['prefix' => 'karoseri'], function () {
+//     Auth::routes();
+// });
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/register','Auth\RegisterController@create');
+Route::post('register','Auth\RegisterController@store');
