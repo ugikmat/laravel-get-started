@@ -76,7 +76,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Please Login Below
+                    Please Select Below
                 </div>
                 <div class="links">
                     <a href="#">Karoseri</a>
