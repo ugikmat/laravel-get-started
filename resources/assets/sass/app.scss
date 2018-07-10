@@ -8,6 +8,15 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// sb-admin
+@import "node_modules/startbootstrap-sb-admin/scss/sb-admin.scss";
+
+// font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+// datatables
+// @import "node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css";
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
